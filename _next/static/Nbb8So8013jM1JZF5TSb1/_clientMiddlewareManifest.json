@@ -1,0 +1,14 @@
+[
+  {
+    "regexp": "^\\/wisetech-site(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
+    "originalSource": "/admin/:path*"
+  },
+  {
+    "regexp": "^\\/wisetech-site(?:\\/(_next\\/data\\/[^/]{1,}))?\\/api\\/admin(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\.json)?[\\/#\\?]?$",
+    "originalSource": "/api/admin/:path*"
+  },
+  {
+    "regexp": "^\\/wisetech-site(?:\\/(_next\\/data\\/[^/]{1,}))?\\/api\\/track(\\.json)?[\\/#\\?]?$",
+    "originalSource": "/api/track"
+  }
+]
